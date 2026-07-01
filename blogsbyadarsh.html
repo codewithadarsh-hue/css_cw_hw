@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs By Adarsh</title>
+</head>
+<style>
+   [href^="https"]{
+    color:red;
+   }
+   [src$=".jpg"]{
+    border-radius:0 20px;
+   }
+   .blogs{
+    display:flex;
+    gap:20px;
+}
+   img{
+    width: 200px;
+    height:auto;
+   }
+   @media only screen and (max-width:600px){
+            .blogs{
+        flex-direction:column;
+    }
+    body{
+        font-size: small;
+    }
+        }
+        @media only screen and (orientation: portrait){
+            .blogs{
+                    background-color: lightyellow;
+                }   
+        }
+</style>
+<body>
+    <h1>Blogs by Adarsh</h1>
+    <div class="blogs">
+    <div class="first">
+    <h2>My First Blog</h2>
+    <img src="images.jpg" alt="First Blog">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula elementum ante quis euismod. Etiam rutrum aliquam turpis, venenatis placerat tellus pulvinar quis. Donec eget congue metus, ut maximus dolor. Donec a ex volutpat, eleifend purus eu, volutpat libero. Integer efficitur scelerisque lectus, a iaculis magna congue non. Sed nec facilisis risus. Vivamus venenatis a leo tempus dictum. Duis varius purus libero, bibendum eleifend nisi lacinia quis. Integer id metus turpis. Integer eget augue in neque volutpat iaculis. Donec eget nisl arcu. Donec ultrices a ante ut elementum.</p>
+    <a href="mashupstack.com">Read More</a>
+    </div>
+    <div class="second">
+        <h2>Second Blog</h2>
+        <img src="placeholder.png" alt="Second Blog">
+        <p>Phasellus ultricies quam arcu, quis volutpat eros efficitur sit amet. Vestibulum luctus vulputate sodales. Suspendisse varius diam ut sapien ornare, ut ullamcorper nulla posuere. Nulla quis ante at mauris aliquet mattis. Etiam nec sem enim. Phasellus lobortis pharetra sem at sodales. Nullam ultrices, dolor at auctor imperdiet, massa purus iaculis felis, sit amet tempus orci tellus eget erat. Ut mollis metus in ante pretium, at volutpat odio aliquet. Morbi venenatis nunc ut sagittis feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut iaculis nisl ut laoreet placerat. Donec varius turpis bibendum, pretium nisi eu, suscipit est. Donec ac vehicula mauris, quis egestas ex. Phasellus eu feugiat ex.</p>
+        <a href="https://www.mashupstack.com/">Read more</a>
+    </div>
+     <div class="third">    
+        <h2>Third Blog</h2>
+        <img src="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png" alt="Third Blog">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rutrum ipsum, a consequat nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ac nulla dapibus, dapibus turpis in, placerat nisl. Vivamus non risus condimentum, posuere mi a, hendrerit eros. Vivamus diam ante, ullamcorper tincidunt neque vitae, sagittis pellentesque sem. Vestibulum consectetur cursus felis, eget elementum purus ullamcorper tempus. Sed eu congue nisi, eu molestie urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam tincidunt sapien sit amet gravida dignissim. Nam efficitur neque eget dui egestas accumsan. In aliquam, dui nec posuere tristique, libero purus consequat lacus, at tristique orci neque quis est. Etiam egestas metus ut iaculis euismod.</p>
+     <a href="#">Read more</a>
+     </div>
+    </div>
+</body>
+</html>
